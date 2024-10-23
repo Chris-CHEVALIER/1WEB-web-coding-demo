@@ -1,0 +1,42 @@
+form {
+  border: 1px solid gray;
+  padding: 25px;
+  border-radius: 5px;
+  width: 75%;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px 0px 8px 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid gray;
+}
+
+input[type='submit'] {
+  border: none;
+  display: block;
+  width: auto;
+  padding: 8px 16px;
+  margin-top: 8px;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input[type='submit']:hover {
+  background-color: rgba(30, 143, 255, 0.87);
+  scale: 1.05;
+  transition: 0.8s;
+}

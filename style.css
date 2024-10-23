@@ -6,23 +6,28 @@ body {
 
 h1 {
   font-size: 48px;
+  margin-top: 0;
+  padding-top: 40px;
+  text-align: center;
 }
 
 h2 {
   font-size: 38px;
 }
 
-h1,
-h2,
-h3 {
-  color: rgb(22, 116, 210);
+header {
+  background-color: dodgerblue;
+}
+
+header img {
+  width: 125px;
 }
 
 .nav ul {
   list-style-type: none;
-  text-align: center;
-  background-color: blueviolet;
-  padding: 30px;
+  display: flex;
+  padding: 0 0 25px 0;
+  justify-content: space-around;
 }
 
 .nav ul li {
@@ -31,13 +36,19 @@ h3 {
 }
 
 .nav ul a {
-  color: white;
+  color: whitesmoke;
+  font-size: 22px;
   text-decoration: none;
 }
 
 .nav ul a:hover {
-  color: lightgray;
+  color: lightblue;
   text-decoration: underline;
+}
+
+main,
+footer {
+  margin: 0 5%;
 }
 
 .projects {
@@ -53,7 +64,10 @@ h3 {
   align-items: center;
   width: 300px;
   height: 300px;
-  background-color: aquamarine;
+  font-weight: bold;
+  color: white;
+  font-size: 26px;
+  background-color: dodgerblue;
 }
 
 @media all and (max-width: 520px) {
